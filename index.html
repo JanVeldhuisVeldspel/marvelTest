@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MarvelTest</title>
+        <link href="styles/styles.css" rel="stylesheet">
+    </head>
+    <body>
+    
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
+                <div class="closeButton" onclick="closePopup()">X</div>
+                <div class="charInfoBox">
+                    <img src="" id="charImage" class="charImage" width="100%">
+                    <div class="charInfoBoxCollumn">
+                        <h1 class="popupName" id="charName"></h1>
+                        <div id="charDescription" class="charDescription"></div>
+                        <div id="charEvents" class="charEvents">Events</div>
+                        <ul id="evenList"></ul>
+                        <ul id="charLinks">
+                            <li><a href="" id="charLink" target="_blank">Link</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <table id="tableHeader">
+                <tr>
+                    <td>Character</td>
+                </tr>
+            </table>
+            <table id="table"></table>
+            <ul>
+                <li><div class="button sml" onclick="getCharacters(rangeNR)">#</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeA)">A</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeB)">B</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeC)">C</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeC2)">C2</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeD)">D</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeE)">E</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeF)">F</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeG)">G</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeH)">H</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeI)">I</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeJ)">J</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeK)">K</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeL)">L</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeM)">M</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeM2)">M2</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeN)">N</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeO)">O</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeP)">P</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeQ)">Q</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeR)">R</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeS)">S</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeS2)">S2</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeT)">T</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeU)">U</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeV)">V</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeW)">W</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeX)">X</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeY)">Y</div></li>
+                <li><div class="button sml" onclick="getCharacters(rangeZ)">Z</div></li>
+            </ul>
+        </div>
+
+        <script type="text/javascript" src="js/main.js" async></script>
+    </body>
+</html>
